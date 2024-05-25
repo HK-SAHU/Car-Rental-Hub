@@ -68,11 +68,11 @@ function BookCar() {
     e.preventDefault();
     const errorMsg = document.querySelector(".error-message");
     if (
-      pickUp == " " &&
-      dropOff == " " &&
-      pickTime == " " &&
-      dropTime == " " &&
-      carType == " "
+      pickUp === " " &&
+      dropOff === " " &&
+      pickTime === " " &&
+      dropTime === " " &&
+      carType === " "
     ) {
       errorMsg.style.display = "flex";
     } else {
