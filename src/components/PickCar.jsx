@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import { CAR_DATA } from "./CarData.js";
 import "./CarSlider.css";
 
-
-
 function PickCar() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
