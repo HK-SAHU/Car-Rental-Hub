@@ -2,12 +2,7 @@ import React, { useState, useEffect } from "react";
 import { CAR_DATA } from "./CarData.js";
 import "./CarSlider.css";
 
-const breakPoints = [
-  { width: 1, itemsToShow: 1 },
-  { width: 550, itemsToShow: 1 },
-  { width: 768, itemsToShow: 1 },
-  { width: 1200, itemsToShow: 1 },
-];
+
 
 function PickCar() {
   const [currentSlide, setCurrentSlide] = useState(0);
