@@ -2,7 +2,6 @@ import MainImg from "../images/chooseUs/group.png";
 import Box1 from "../images/chooseUs/cross.png";
 import Box2 from "../images/chooseUs/rupees.png";
 import Box3 from "../images/chooseUs/hidden.png";
-import { IconChevronRight } from "@tabler/icons-react";
 
 function ChooseUs() {
   return (
